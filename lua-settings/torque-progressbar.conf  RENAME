@@ -39,7 +39,7 @@ default-style=\fnSource Sans Pro\b1\bord2\shad0\fs30\c&H00FF00&\3c&H2D2D2D&
 
 # Controls whether or not the progress bar is drawn at all. If this is disabled,
 # it also (naturally) disables the click-to-seek functionality.
-enable-bar=yes
+enable-bar=no
 
 # Causes the bar to not be drawn unless the mouse is hovering over it or a
 # request-display call is active. This is somewhat redundant with setting bar-
@@ -48,7 +48,7 @@ enable-bar=yes
 # the binding `f cycle pause; script-binding progressbar/toggle-inactive-bar`, it
 # is possible to have the bar be persistently present only in windowed or
 # fullscreen contexts, depending on the default setting.
-bar-hide-inactive=no
+bar-hide-inactive=yes
 
 # Sets the height of the bar display when the mouse is not in the active zone and
 # there is no request-display active. A value of 0 or less will cause bar-hide-
